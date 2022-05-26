@@ -1,11 +1,14 @@
 # Git cheat sheet
 
 ## Pre-Standard
-git config --global init.defaultBranch main
+git config --global init.default Branch main
+
 git config --global user.email "sampolgar@gmail.com"
 
 git init | setup dir
+
 ls -la | see in the file structure
+
 rm -rf .git/ | delete the git init file
 
 
