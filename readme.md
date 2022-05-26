@@ -1,6 +1,6 @@
-Git cheat sheet
+# Git cheat sheet
 
-<!-- pre-standard -->
+## Pre-Standard
 git config --global init.defaultBranch main
 git config --global user.email "sampolgar@gmail.com"
 
@@ -9,45 +9,60 @@ ls -la | see in the file structure
 rm -rf .git/ | delete the git init file
 
 
-<!-- Standard -->
+## Standard
 
 git add . | git add -A
+
 git commit  -m "message"
+
 git status
+
 git remote add origin git remote add origin https://github.com/sampolgar/git-commands.git 
+
 git push --set-upstream origin main
+
 git remote -v
+
 git push -u
 
-<!-- branch -->
+## Branch
 git branch
+
 git branch sam-feature
+
 git checkout main
+
 git checkout -b sam-newbranch
 
-<!-- Working with upstream repo -->
+
+## Working with upstream repo
 git fetch upstream
+
 git merge upstream/main
+
 git push origin main
+
 git pull
 
-<!-- merge fork to main -->
+## merge fork to main
 git checkout main
+
 git pull origin main
+
 git merge test
+
 git push origin main
 
 git log
 
-<!-- add to gitignore -->
-<!-- Global git ignore -->
+## add to gitignore
 cat gitignore
+
 touch .gitignore
+
 echo 'xxx' > .gitignore
 
-https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns
-
-<!-- fork & create pull request -->
+## fork & create pull request
 1. clone
 2. make fork of originalproject.git
 3. make branch on new fork sam-new-branch
@@ -60,5 +75,6 @@ https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patt
 9. git merge upstream/main
 10. navigate to fork and select pull request
 
-
-https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide
+## Links
+[Digital Ocean Reference](https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide)
+[Atlassian git ignore](https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns)
