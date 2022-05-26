@@ -14,8 +14,9 @@ rm -rf .git/ | delete the git init file
 git add . | git add -A
 git commit  -m "message"
 git status
+git remote add origin git remote add origin https://github.com/sampolgar/git-commands.git 
+git push --set-upstream origin main
 git remote -v
-git push 
 git push -u
 
 <!-- branch -->
