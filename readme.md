@@ -65,6 +65,14 @@ touch .gitignore
 
 echo 'xxx' > .gitignore
 
+## standard linux
+
+mv commands.md readme.md
+
+rm readme.md
+
+rm-r
+
 ## fork & create pull request
 1. clone
 2. make fork of originalproject.git
