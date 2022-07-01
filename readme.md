@@ -148,6 +148,16 @@ Commit
 git add .gitignore
 git commit -m '.DS_Store banished!'
 
+# Ancillary
+
+## Ngrok
+- download and unzip ngrok
+- ngrok config add-authtoken {authtoken}
+- ngrok http 3000
+
+## Deno
+- cmd, shift, P - run -> Deno: Initialize Workspace Configuration command
+
 ## Links
 [Digital Ocean Reference](https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide)
 
