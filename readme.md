@@ -59,6 +59,11 @@ git checkout main
 
 git checkout -b sam-newbranch
 
+git branch -d (delete branch locally, branch must be committed)
+
+git branch -D (delete branch, doesn't need commit, ensure you're on the branch)
+
+
 # Early Troubleshooting
 
 git remote set-url origin https://github.com/sampolgar/new-remote-url.git
